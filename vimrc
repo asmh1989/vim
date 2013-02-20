@@ -7,7 +7,7 @@ filetype plugin on
 " 为特定文件类型载入相关缩进文件
 filetype indent on
 " 配色方案
-colorscheme torte
+colorscheme blackboard
 " 去掉输入错误的提示声音
 set noeb
 " 下面5行用来解决gVim菜单栏和右键菜单乱码问题
