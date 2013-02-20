@@ -9,7 +9,7 @@ filetype indent on
 " 配色方案
 colorscheme blackboard
 " 去掉输入错误的提示声音
-set noeb
+set number
 " 下面5行用来解决gVim菜单栏和右键菜单乱码问题
 set encoding=utf8
 set langmenu=zh_CN.UTF-8
