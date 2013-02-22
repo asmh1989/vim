@@ -8,8 +8,9 @@ filetype plugin on
 filetype indent on
 " 配色方案
 colorscheme blackboard
-" 去掉输入错误的提示声音
+" 显示行号
 set number
+
 " 下面5行用来解决gVim菜单栏和右键菜单乱码问题
 set encoding=utf8
 set langmenu=zh_CN.UTF-8
@@ -99,3 +100,4 @@ map <F8> :NERDTree<CR>
 " Pydiction
 filetype plugin on
 let g:pydiction_location = '~/.vim/dict/complete-dict'
+let g:pydiction_menu_height = 20
